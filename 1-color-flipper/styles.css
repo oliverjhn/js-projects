@@ -1,0 +1,62 @@
+@import url("https://fonts.googleapis.com/css?family=Open+Sans|Roboto:400,700&display=swap");
+
+:root {
+  --ff-primary: "Roboto", sans-serif;
+  --ff-secondary: "Open Sans", sans-serif;
+}
+
+body {
+  background-color: #ffe5ec;
+  font-family: var(--ff-secondary);
+  margin: 0px;
+}
+
+header {
+  display: flex;
+  justify-content: space-around;
+  background-color: #ffc2d1;
+  margin: 0px;
+  box-shadow: 0px 0px 10px;
+}
+
+h2 {
+  background-color: black;
+  color: white;
+  padding: 15px;
+  border-radius: 10px;
+  text-align: center;
+}
+
+#color-text {
+  color: lightblue;
+}
+
+#color-type {
+  display: flex;
+  justify-content: space-between;
+  flex-grow: 0.1;
+}
+
+#main-part {
+  margin-top: 100px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+#color-btn {
+  width: 130px;
+  height: 40px;
+  font-family: var(--ff-primary);
+  font-size: 20px;
+  background-color: transparent;
+  border-radius: 5px;
+  font-weight: 700;
+  letter-spacing: 1px;
+  border: 2px solid black;
+}
+
+#color-btn:hover {
+  background-color: white;
+  color: black;
+}
